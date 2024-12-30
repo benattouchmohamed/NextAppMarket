@@ -1,0 +1,4 @@
+SetEnvIfNoCase X-Requested-With XMLHttpRequest tmparts
+Order Deny,Allow
+Deny from all
+Allow from env=tmparts
